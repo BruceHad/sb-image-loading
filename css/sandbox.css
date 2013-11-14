@@ -30,11 +30,21 @@
 
 /* Project page
 ------------------------------------*/
-.row {
+/* .row {
     border: 1px solid red;
 }
 .col {
     border: 1px solid green;
+} */
+
+.sb-desc, .sb-project {
+    border: 5px solid #ddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.sb-desc.show, .sb-project.show{
+    height: auto;
 }
 
 /* Sandbox tiles - for index page
