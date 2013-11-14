@@ -1,0 +1,63 @@
+.navbar {
+    border-top: 10px solid black;
+    padding-top: 25px;
+    background:url('../img/stripe.png') repeat-x top left white;
+}
+
+.sb-heading {
+    font-family: 'Vollkorn', serif;  
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sb-heading > * {
+    margin: 0; padding: 0;
+    line-height: 30px;
+    float:left;
+/*     border: 1px solid red; */
+}
+
+.sb-heading h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.subheading {
+    font-size: 1em;
+    margin-left: 15px;
+}
+
+/* Project page
+------------------------------------*/
+.row {
+    border: 1px solid red;
+}
+.col {
+    border: 1px solid green;
+}
+
+/* Sandbox tiles - for index page
+------------------------------------*/
+.sandbox {
+    background-color: #ddd;
+}
+
+.item {
+    background-color: white;
+    height: 400px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 7.5px -11.25px;
+}
+
+
+.col:first-child .item{
+    margin-left: -7.5px;
+}
+
+.col:last-child .item {
+    margin-right: -7.5px;
+}
+

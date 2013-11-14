@@ -1,0 +1,22 @@
+#holder {
+    border: 3px dashed #ccc;
+    width: 300px;
+    height: 300px;
+    margin: 15px auto;
+    padding: 3px;
+}
+#holder.hover {
+    border: 3px dashed black;
+}
+.highlight {
+    border: 3px solid #b1b58f;
+    background: #ecede6;
+    font-weight: bold;
+    padding: 15px;
+    width: 300px;
+    margin: 15px auto;
+    text-align: center;
+}
+.fail {
+    border: 3px solid red;
+}
