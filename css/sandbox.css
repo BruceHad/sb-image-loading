@@ -1,53 +1,26 @@
 .navbar {
     border-top: 10px solid black;
     padding-top: 25px;
-    background:url('../img/stripe.png') repeat-x top left white;
+    background:url('http://treerock.me/assets/stripe.png') repeat-x top left white;
 }
 
-.sb-heading {
+.heading {
     font-family: 'Vollkorn', serif;  
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
-.sb-heading > * {
-    margin: 0; padding: 0;
-    line-height: 30px;
+.heading h1 {
+    font-size: 3em;
+    font-weight: normal;
     float:left;
-/*     border: 1px solid red; */
-}
-
-.sb-heading h1 {
-    font-size: 1.5em;
-    font-weight: bold;
-
+    margin:0 0.5em; 
 }
 
 .subheading {
-    font-size: 1em;
-    margin-left: 15px;
+    float:left;
+    margin:1.7em 0 0 0; 
 }
 
-/* Project page
-------------------------------------*/
-/* .row {
-    border: 1px solid red;
-}
-.col {
-    border: 1px solid green;
-} */
-
-.sb-desc, .sb-project {
-    border: 5px solid #ddd;
-    height: 0;
-    overflow: hidden;
-}
-
-.sb-desc.show, .sb-project.show{
-    height: auto;
-}
-
-/* Sandbox tiles - for index page
+/* Sandbox tiles
 ------------------------------------*/
 .sandbox {
     background-color: #ddd;
