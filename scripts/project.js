@@ -1,11 +1,12 @@
 var holder = document.getElementById('holder'),
-    state = document.getElementById('status');
+    state = document.getElementById('fr-status');
 
 if(typeof window.FileReader === 'undefined') {
     state.className += ' fail';
 } else {
     state.className += ' success';
-    state.innerHTML = 'File API & FileReader available';
+    state.innerHTML = '<p>Cool. File API &amp; FileReader are available so this should work.</p>';
+    state.innerHTML += '<p>Drag and drop an image file from your computer to this box.</p>';
 }
 
 holder.ondragover = function() {
