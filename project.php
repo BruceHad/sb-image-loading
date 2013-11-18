@@ -28,6 +28,7 @@
                 </ul>
                 <h2>Meta</h2>
                 <p>Created June 2013</p>
+                <p><a href="//github.com/treerock/sb-image-loading">Source on Github</a></p>
             </div>
         </div>
         <div class="row sb-desc clearfix">
