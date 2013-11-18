@@ -5,10 +5,19 @@
     margin: 15px auto;
     padding: 3px;
 }
-#holder.hover {
-    border: 3px dashed black;
+
+.meta h2{
+    font-size: large;
 }
+
+
 .fr-status {
-    font-weight: bold;
-    padding: 15px;
+    width: 300px;
+    margin: 5px auto;
+}
+
+.reading-list {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
 }
