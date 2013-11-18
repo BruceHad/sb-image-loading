@@ -9,8 +9,9 @@
 
         <div class="row sb-project clearfix show">
             <div class="col col-8">
-                <p id="fr-status" class="fr-status">File API &amp; FileReader API not supported so this won't work.</p>
+                <p id="fr-status" class="hold">File API &amp; FileReader API not supported so this won't work.</p>
                 <div id="holder"></div>
+                <p class="hold"><a href="#" id="clear">Clear</a></p>
             </div>
             <div class="col col-4 meta">
                 <h2>About</h2>
