@@ -9,7 +9,7 @@ if(typeof window.FileReader === 'undefined') {
 } else {
     status = 'ok';
     state.className += ' success';
-    state.innerHTML = '<p>Cool. File API &amp; FileReader are available so this should work. Drag and drop an image file from your computer to this box.</p>';
+    state.innerHTML = '<p>Cool. File API &amp; FileReader are available so this should work.</p><p>Drag and drop an image file from your computer to this box.</p>';
 }
 
 holder.ondragover = function(e) {

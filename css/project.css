@@ -6,18 +6,28 @@
     padding: 3px;
 }
 
-.meta h2{
-    font-size: large;
+
+.date {
+	font-size:small;
+	font-weight: bold;
+	text-align: right;
+	margin:0; padding:0;
+}
+
+.col{
+    float:left;
+	padding: 0 15px;
+}
+.col-6 {
+    width: 50%;
 }
 
 
-.hold {
-    width: 300px;
-    margin: 5px auto;
+.button {
+	text-align:center;
 }
 
-.reading-list {
-    list-style-type: none;
-    margin: 5px 0;
-    padding: 0;
+.button a {
+	padding: 4px;
+	border: 1px solid #ddd;
 }
